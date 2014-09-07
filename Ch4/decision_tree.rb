@@ -1,5 +1,5 @@
 puts "Give me three positive or negative numbers representing x, y, and z. (Separate with: ',')."
-input = "-9,-5,3" #gets.chomp
+input = gets.chomp
 numbers = input.split(',')
 numbers.map! { |n| n.to_i }
 
